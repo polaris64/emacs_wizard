@@ -63,7 +63,7 @@ BUF is the buffer to erase and to which to insert the messages."
     (insert-button " Click here to save your new configuration to init.el "
                    'face 'emacs-wizard-button
                    'action (lambda (_button) (emacs-wizard-save-config))
-                   'help-echo "mouse-2, RET: Keep the default Emacs configuration"
+                   'help-echo "mouse-2, RET: Save the new configuration"
                    'follow-link t)
     (goto-char (point-min))))
 
