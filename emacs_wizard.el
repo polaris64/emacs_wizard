@@ -76,7 +76,7 @@ BUF is the buffer to erase and to which to insert the messages."
       ; TODO For this prototype, the file is saved to init.el.wizard to avoid
       ; overwriting an actual config. Change this back after proper backup
       ; procedures have been implemented.
-      (setq buffer-file-name (expand-file-name "~/.emacs.d/init.el.wizard"))
+      (setq buffer-file-name (expand-file-name "init.el.wizard" user-emacs-directory))
 
       (save-buffer))))
 
