@@ -5,7 +5,7 @@
 ;; Author: Simon Pugnet <https://www.polaris64.net/>
 ;; Maintainer: Simon Pugnet <simon@polaris64.net>
 ;; Created: September 27, 2020
-;; Modified: September 27, 2020
+;; Modified: September 4, 2021
 ;; Version: 0.0.1
 ;; Keywords: wizard set-up configuration
 ;; Homepage: https://github.com/polaris64/emacs_wizard
@@ -27,12 +27,12 @@
 
 (defface emacs-wizard-button
   '((t :foreground "#202020" :background "grey" :box (:line-width 2 :color nil :style released-button)))
-  "Face used for Emacs set-up wizard buttons"
+  "Face used for Emacs set-up wizard buttons."
   :group 'emacs-wizard-faces)
 
 (defface emacs-wizard-info
   '((t :foreground "green"))
-  "Face used for Emacs set-up wizard buttons"
+  "Face used for Emacs set-up wizard buttons."
   :group 'emacs-wizard-faces)
 
 (defun emacs-wizard-invoke-spell (fn)
